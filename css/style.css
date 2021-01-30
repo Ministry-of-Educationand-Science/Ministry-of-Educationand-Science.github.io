@@ -200,6 +200,9 @@ select {
   text-align: center;
   text-transform: uppercase;
   line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn_nav {
@@ -774,15 +777,14 @@ select {
     width: 100%;
     height: 100vh;
     background-color: #323232;
-    padding: 70px 0 0 30px;
     transition: .5s;
   }
   .header__wrapper .container .header__menu .menu__list {
     display: block;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -35%);
     text-align: center;
   }
   .header__wrapper .container .header__menu .menu__list .menu__item {
@@ -817,7 +819,7 @@ select {
     height: 100%;
   }
   .content__block {
-    width: 45%;
+    width: 100%;
     margin: 20px 0;
   }
   .content__btns {
@@ -832,6 +834,7 @@ select {
   }
   .reviews .slide .slide_first .slide__descr, .reviews .slide .slide_second .slide__descr {
     padding: 10px 10px 10px 35px;
+    font-size: 13px;
   }
   .promo video {
     width: 100%;
@@ -873,6 +876,7 @@ select {
   .header .header__content-container {
     flex-wrap: wrap;
     justify-content: center;
+    width: 350px;
   }
   .header .header__content-container .header__logo {
     margin: 10px 0;
@@ -904,7 +908,9 @@ select {
     font-size: 15px;
   }
   .content__title {
-    font-size: 13px;
+    font-size: 12px;
+    width: 115px;
+    margin: 20px auto;
   }
   .content__descr {
     text-align: center;
